@@ -1,0 +1,11 @@
+/* frontend/style.css */
+:root { --bg:#0f172a; --card:#0b1220; --accent:#06b6d4; --muted:#94a3b8; color-scheme: dark; }
+body { margin:0; font-family: Inter, system-ui, Arial; background: linear-gradient(180deg,#020617, #071032); color: #e6eef8; display:flex; min-height:100vh; align-items:center; justify-content:center; }
+.container { width:min(900px,96vw); padding:28px; background:rgba(255,255,255,0.02); border-radius:12px; box-shadow: 0 8px 40px rgba(2,6,23,0.6); }
+h1 { margin:0 0 8px 0; font-size:22px;}
+textarea { width:100%; min-height:120px; padding:12px; border-radius:8px; background: rgba(255,255,255,0.02); border:1px solid rgba(255,255,255,0.04); color:inherit; resize:vertical; }
+.controls { display:flex; gap:8px; margin-top:8px; align-items:center; }
+button { background:var(--accent); color:#021024; padding:8px 12px; border:none; border-radius:8px; cursor:pointer; font-weight:600; }
+select { padding:8px; border-radius:8px; background:rgba(255,255,255,0.02); color:inherit; border:1px solid rgba(255,255,255,0.03); }
+.result { margin-top:16px; padding:12px; border-radius:8px; background: rgba(255,255,255,0.01); border:1px solid rgba(255,255,255,0.02); min-height:40px; }
+small { color:var(--muted); }

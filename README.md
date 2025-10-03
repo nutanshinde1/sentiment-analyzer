@@ -13,5 +13,5 @@ Requirements: Docker & docker-compose
 
 1. Clone
 ```bash
-git clone https://github.com/YOUR_USERNAME/sentiment-analyzer.git
+git clone https://github.com/nutanshinde1/sentiment-analyzer.git
 cd sentiment-analyzer

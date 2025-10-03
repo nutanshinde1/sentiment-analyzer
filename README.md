@@ -2,7 +2,7 @@
 
 A resume-ready Sentiment Analysis demo with a FastAPI backend using Hugging Face `transformers` and a simple static frontend.
  
-## Features
+## Features 
 - REST API: `/api/sentiment` (single or batch)
 - Demo frontend: `frontend/index.html`
 - Dockerized backend and static frontend

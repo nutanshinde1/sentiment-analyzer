@@ -5,7 +5,7 @@ services:
     ports:
       - "8000:8000"
     environment:
-      - PORT=8000
+      - PORT=8000 
     volumes:
       - ./backend:/app
 

@@ -11,7 +11,7 @@ A resume-ready Sentiment Analysis demo with a FastAPI backend using Hugging Face
 ## Quick local run (recommended)
 Requirements: Docker & docker-compose
 
-1. Clone
+1. Clone  
 ```bash
 git clone https://github.com/nutanshinde1/sentiment-analyzer.git
 cd sentiment-analyzer
